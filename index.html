@@ -8,7 +8,40 @@
   </head>
   <body>
     <div class="container">
+      <div class="search-box">
+        <i class="location fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Enter your location">
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="not-found">
+        <img src="./public/images/404.avif" alt="Error 404 - Not found">
+        <p>Invalid location</p>
+      </div>
+      <div class="weather-box">
+        <img src="">
+        <p class="temperature">Temp</p>
+        <p class="description">Description</p>
+      </div>
+      <div class="weather-details">
+        <div class="humidity">
+          <i class="details-icon fa-solid fa-droplet"></i>
+          <div class="text">
+            <span>span</span>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind">
+          <i class="details-icon fa-solid fa-wind"></i>
+          <div class="text">
+            <span>span</span>
+            <p>Wind speed</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <script type="module" src="/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/main.js"></script>
   </body>
 </html>
