@@ -56,6 +56,8 @@ body {
 }
 .search-box input {
   color: #0a273d;
+  background: #fff;
+  border-radius: 10px;
   width: 80%;
   font-size: 24px;
   text-transform: uppercase;
@@ -69,6 +71,10 @@ body {
 .search-box input::placeholder {
   font-size: 19px;
   text-transform: capitalize;
+}
+.search-box input:focus {
+  border: none;
+  outline: none;
 }
 .search-box button {
   background: #dff6ff;
