@@ -132,7 +132,8 @@ body {
   justify-content: space-between;
   margin-top: 30px;
 }
-.weather-details .humidity, .weather-details .wind {
+.weather-details .humidity,
+.weather-details .wind {
   display: flex;
   align-items: center;
   width: 50%;
@@ -175,7 +176,8 @@ body {
   margin-top: 10px;
 }
 
-.weather-box, .weather-details {
+.weather-box,
+.weather-details {
   scale: 0;
   opacity: 0;
 }
@@ -194,8 +196,15 @@ body {
 footer {
   position: absolute;
   bottom: 5px;
+  color: #0a2133;
+}
+footer a {
+  letter-spacing: 5px;
   text-transform: uppercase;
   font-size: 10px;
+  transition: 0.4s ease;
+}
+footer a:hover {
   color: #f8fafc;
-  letter-spacing: 5px;
+  transition: 0.4s ease;
 }/*# sourceMappingURL=style.css.map */
