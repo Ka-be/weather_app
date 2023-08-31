@@ -1,11 +1,8 @@
-# Weather app - ![Status](https://img.shields.io/badge/Status-On%20going-fd9644?style=flat-square)
+# Weather app - ![Status](https://img.shields.io/badge/Status-Finished-20bf6b?style=flat-square)
 
+<img src="./images/clouds.png" width=10%>
 
-<!-- ![Status](https://img.shields.io/badge/Status-Finished-20bf6b?style=flat-square)
-
-<img src="img/logo.svg" width=10%>
-
-Description du projet -->
+Application providing real-time weather of a given location, powered by the Open Weather API.
 
 ---
 
@@ -26,25 +23,14 @@ Description du projet -->
 
 ## 💡 Features
 
-![Responsive](https://img.shields.io/badge/Responsive-None-E74C3C?style=flat-square)
-<!-- ![Responsive](https://img.shields.io/badge/Responsive-Partial-3498DB?style=flat-square)
 ![Responsive](https://img.shields.io/badge/Responsive-Full-27AE60?style=flat-square)
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform -->
 
 ---
 
 ## 💻 Softwares used
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?&logo=visual%20studio%20code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?&logo=figma&logoColor=white)
-![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00e&logo=adobe%20illustrator&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?&logo=Adobe%20Photoshop&logoColor=black)
-![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FFe&logo=Adobe%20Lightroom&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?&logo=notion&logoColor=white)
 
 ---
 
@@ -54,22 +40,22 @@ Description du projet -->
 
 ---
 
-<!-- ## 🎨 Color Reference
+## 🎨 Color Reference
 
 | Color      | Hex                                                                |
 | ---------- | ------------------------------------------------------------------ |
-| Turquoise  | ![#1ABC9C](https://placehold.co/15x15/1ABC9C/1ABC9C.png) `#1ABC9C` |
-| Dark grey  | ![#19242e](https://placehold.co/15x15/19242e/19242e.png) `#19242e` |
-| Light grey | ![#34495E](https://placehold.co/15x15/34495E/34495E.png) `#34495E` |
-| Silver     | ![#BDC3C7](https://placehold.co/15x15/BDC3C7/BDC3C7.png) `#BDC3C7` |
+| Dark blue  | ![#0A2133](https://placehold.co/15x15/0A2133/0A2133.png) `#0A2133` |
+| Metal blue  | ![#234D70](https://placehold.co/15x15/234D70/234D70.png) `#234D70` |
+| Light blue | ![#CBECf9](https://placehold.co/15x15/CBECf9/CBECf9.png) `#CBECf9` |
+| Silver     | ![#F8FAFC](https://placehold.co/15x15/F8FAFC/F8FAFC.png) `#F8FAFC` |
 
 ---
 
 ## 📸 Screenshots
 
-<img src="img/screenshot.png" width=50%>
+<img src="./images/screenshot.png" width=50%>
 
---- -->
+--- 
 
 ## 🔗 Links
 
