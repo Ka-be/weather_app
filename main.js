@@ -1,3 +1,9 @@
+import clearUrl from './images/clear.png';
+import rainUrl from './images/rain.png';
+import snowUrl from './images/snow.png';
+import cloudsUrl from './images/clouds.png';
+import hazeUrl from './images/haze.png';
+
 const container = document.querySelector(".container");
 const searchButton = document.querySelector(".search-box button");
 const searchInput = document.querySelector(".search-box input");
@@ -45,21 +51,22 @@ function performSearch() {
 			);
 			const wind = document.querySelector(".weather-details .wind span");
 
+
 			switch (json.weather[0].main) {
 				case "Clear":
-					image.src = "images/clear.png";
+					image.src = clearUrl;
 					break;
 				case "Rain":
-					image.src = "images/rain.png";
+					image.src = rainUrl;
 					break;
 				case "Snow":
-					image.src = "images/snow.png";
+					image.src = snowUrl;
 					break;
 				case "Clouds":
-					image.src = "images/clouds.png";
+					image.src = cloudsUrl;
 					break;
 				case "Haze":
-					image.src = "images/haze.png";
+					image.src = hazeUrl;
 					break;
 				default:
 					image.src = "";
